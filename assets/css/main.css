@@ -23,16 +23,33 @@ img.profile {
     border-radius: 50%;
 }
 
-a:link {
+a.hover-show:link, a.hover-show:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a.hover-show:hover{
+    text-decoration: none;
+    background-color: maroon;
+}
+
+a.intext-link:link, a.intext-link:visited{
+    color: lightpink;
+    border-bottom: 2px solid lightpink;
+}
+
+a.intext-link:hover {
+    text-decoration: none;
+    background-color: maroon;
+}
+
+a.footer-link:link, a.footer-link:visited {
     color: white;
 }
 
-a:visited {
-    color: white;
-}
 
 div.hi {
-    padding-left: 4em;
+    padding-left: 5em;
     padding-right: 0em;
 }
 
