@@ -108,3 +108,17 @@ div.footer{
     font-size: 18px;
 }
 
+a.return-to-top {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a.return-to-top:hover, a.return-to-top:active {
+    color: rgba(255, 255, 255, 1);
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 14%;
+    right: 0;
+}
+
