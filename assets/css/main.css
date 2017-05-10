@@ -1,11 +1,22 @@
+body, .social-links {
+    background-color: #610500;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px;
+    font-weight: 100;
+}
+
+h3, h5{
+  line-height: 30px; 
+}
+
 .footer {
     bottom: 0;
     width: 100%;
     height: auto;
     
-    padding-top: 0.5em;
+    padding-top: 0.1em;
     padding-right: 1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.1em;
     padding-left: 2em;
     color: white;
     background-color: rgba(128, 0, 0, 1);
@@ -21,6 +32,10 @@ img.profile {
     width: 180px;
     height: 180px;
     border-radius: 50%;
+}
+
+p.social {
+     font-size: 18px;
 }
 
 a.hover-show:link, a.hover-show:visited{
@@ -49,12 +64,10 @@ a.footer-link:link, a.footer-link:visited {
 
 
 div.hi {
-    padding-left: 5em;
+    padding-left: 1.5em;
     padding-right: 0em;
-}
-
-h3, h5{
-  line-height: 30px; 
+    font-family: 'Satisfy', cursive;
+    font-size: 300%;
 }
 
 div.right-quote {
