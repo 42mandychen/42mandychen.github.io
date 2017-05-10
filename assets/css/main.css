@@ -9,6 +9,7 @@ h3, h5{
   line-height: 30px; 
 }
 
+
 .footer {
     bottom: 0;
     width: 100%;
@@ -38,6 +39,10 @@ p.social {
      font-size: 18px;
 }
 
+a.brand-link:hover {
+    color: rgba(0,0,0,0.9);
+}
+
 a.hover-show:link, a.hover-show:visited{
     color: white;
     text-decoration: none;
@@ -58,10 +63,13 @@ a.intext-link:hover {
     background-color: maroon;
 }
 
-a.footer-link:link, a.footer-link:visited {
+a.footer-link:link, a.footer-link:visited, a.title-link:link, a.title-link:visited {
     color: white;
 }
 
+a.title-link:hover{
+    text-decoration: none;
+}
 
 div.hi {
     padding-left: 1.5em;
@@ -70,8 +78,19 @@ div.hi {
     font-size: 300%;
 }
 
+div.title {
+    padding-left: 0em;
+    padding-right: 0em;
+    font-family: 'Satisfy', cursive;
+    font-size: 300%;
+}
+
 div.right-quote {
      text-align: right;
+}
+
+i.link {
+    color: lightpink;
 }
 
 footer-icons {
