@@ -122,3 +122,18 @@ div.fixed {
     right: 0;
 }
 
+div.photo {
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+}
+
