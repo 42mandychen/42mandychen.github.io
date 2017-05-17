@@ -137,3 +137,7 @@ figcaption {
     font-style: italic;
 }
 
+img.slide {
+    width: 90%;
+    height:90%;
+}
