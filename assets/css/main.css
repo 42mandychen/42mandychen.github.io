@@ -141,3 +141,15 @@ img.slide {
     width: 90%;
     height:90%;
 }
+
+div.carousel {
+    width: 100%;
+}
+
+a.site-link {
+    color:white;
+}
+
+a.navlink {
+    color: rgba(0,0,0,.5) !important;
+}
