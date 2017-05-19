@@ -43,7 +43,16 @@ a.brand-link:hover {
     color: rgba(0,0,0,0.9);
 }
 
-a.hover-show:link, a.hover-show:visited{
+a.project-title:link, a.project-title:visited{
+    color: maroon;
+}
+
+a.project-title:hover {
+    color: maroon;
+    border-bottom: 2px solid maroon;
+}
+
+a.hover-show:link, a.hover-show:visited, a.hover-show:active{
     color: white;
     text-decoration: none;
 }
@@ -53,7 +62,7 @@ a.hover-show:hover{
     background-color: maroon;
 }
 
-a.intext-link:link, a.intext-link:visited{
+a.intext-link:link, a.intext-link:visited, a.intext-link:active{
     color: lightpink;
     border-bottom: 2px solid lightpink;
 }
@@ -138,12 +147,8 @@ figcaption {
 }
 
 img.slide {
-    width: 90%;
-    height:90%;
-}
-
-div.carousel {
     width: 100%;
+    height:100%;
 }
 
 a.site-link {
@@ -152,4 +157,53 @@ a.site-link {
 
 a.navlink {
     color: rgba(0,0,0,.5) !important;
+}
+
+h2.project-title {
+    font-family: 'Satisfy', cursive;
+}
+
+i.lang-TypeScript {
+    color: #2b7489;
+}
+
+i.lang-JavaScript {
+    color: #f1e05a;
+}
+
+i.lang-HTML {
+    color: #e44b23;
+}
+
+i.lang-CSS {
+    color: #563d7c;
+}
+
+div.center {
+    text-align: center !important;
+}
+
+div.caption {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: lightpink;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 200% !important;
+}
+
+span.control {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: maroon;
+    border-radius: 30px
+}
+
+i.project-link {
+    color: maroon;
 }
