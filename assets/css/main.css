@@ -179,6 +179,14 @@ i.lang-CSS {
     color: #563d7c;
 }
 
+i.lang-PHP {
+    color: #4F5D95;
+}
+
+i.lang-other {
+    color: #ededed;
+}
+
 div.center {
     text-align: center !important;
 }
@@ -206,4 +214,12 @@ span.control {
 
 i.project-link {
     color: maroon;
+}
+
+.carousel-indicators .active {
+    background-color: maroon !important;
+}
+
+.carousel-indicators li {
+    background-color: lightpink;
 }
