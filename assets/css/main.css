@@ -1,12 +1,12 @@
 body, .social-links {
     background-color: #610500;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 18px;
-    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: lighter !important;
 }
 
 h3, h5{
-  line-height: 30px; 
+  line-height: 30px;
 }
 
 
@@ -14,7 +14,7 @@ h3, h5{
     bottom: 0;
     width: 100%;
     height: auto;
-    
+
     padding-top: 0.1em;
     padding-right: 1em;
     padding-bottom: 0.1em;
@@ -108,8 +108,9 @@ footer-icons {
 }
 
 div.icon-list {
-    font-size: 25px; 
-    font-family: ariel, sans-serif; 
+    font-size: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter !important;
     color: white;
 }
 
