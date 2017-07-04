@@ -39,10 +39,6 @@ p.social {
      font-size: 18px;
 }
 
-a.brand-link:hover {
-    color: rgba(0,0,0,0.9);
-}
-
 a.project-title:link, a.project-title:visited{
     color: maroon;
 }
@@ -58,18 +54,16 @@ a.hover-show:link, a.hover-show:visited, a.hover-show:active{
 }
 
 a.hover-show:hover{
-    text-decoration: none;
-    background-color: maroon;
+    text-decoration: underline;
 }
 
 a.intext-link:link, a.intext-link:visited, a.intext-link:active{
     color: lightpink;
-    border-bottom: 2px solid lightpink;
+    text-decoration: none;
 }
 
 a.intext-link:hover {
-    text-decoration: none;
-    background-color: maroon;
+    text-decoration: underline;
 }
 
 a.footer-link:link, a.footer-link:visited, a.title-link:link, a.title-link:visited {
@@ -152,8 +146,15 @@ img.slide {
     height:100%;
 }
 
-a.site-link {
+
+
+a.site-link:link, a.site-link:visited, a.site-link:active{
     color:white;
+    text-decoration: none !important;
+}
+
+a.site-link:hover {
+    text-decoration: underline;
 }
 
 a.navlink {
@@ -186,6 +187,10 @@ i.lang-PHP {
 
 i.lang-other {
     color: #ededed;
+}
+
+i.lang-Java {
+    color: #b07219;
 }
 
 div.center {
