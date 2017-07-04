@@ -150,7 +150,7 @@ img.slide {
 
 a.site-link:link, a.site-link:visited, a.site-link:active{
     color:white;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 a.site-link:hover {
