@@ -201,6 +201,10 @@ i.lang-Java {
     color: #b07219;
 }
 
+i.lang-Cpp {
+    color: #f34b7d;
+}
+
 div.center {
     text-align: center !important;
 }
@@ -250,4 +254,14 @@ i.project-link {
 .main-text {
     position: absolute;
     top: 0.3em;
+}
+
+.card-outline-mindthegap {
+    background-color: transparent;
+    border-color: #f1e05a;
+}
+
+.card-outline-skiplist {
+    background-color: transparent;
+    border-color: #f34b7d;
 }
