@@ -91,7 +91,7 @@ div.title {
 
 div.carousel-title {
     font-family: 'Satisfy', cursive;
-    font-size: 500%;
+    font-size: 9vw;
     color: white;
 }
 
@@ -249,5 +249,5 @@ i.project-link {
 
 .main-text {
     position: absolute;
-    top: 0.7em;
+    top: 0.3em;
 }
