@@ -34,12 +34,12 @@
 
 <body>
   <div class="bg-faded" id="top">
-    <div class="container mt-0">
+    <div class="container my-0">
       <nav class="navbar navbar-toggleable-sm navbar-light">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation">
 			        <span class="navbar-toggler-icon"></span>
 			  </button>
-        <a class="navlink navbar-brand" href="{{ site.url }}">
+        <a class="navbar-brand {% if page.path != 'index.html' %}navlink{% endif %}" href="{{ site.url }}">
 			        &#60;MANDY CHEN /&#62;
 			  </a>
 
@@ -47,10 +47,10 @@
         <div class="collapse navbar-collapse" id="bd-main-nav">
           <ul class="nav navbar-nav mr-right">
             <li class="nav-item">
-              <a class="nav-item nav-link" href="{{ site.url }}/projects/">PROJECTS <span class="sr-only"></span></a>
+              <a class="nav-item nav-link {% if page.path == 'projects.html' %}active{% endif %}" href="{{ site.url }}/projects/">PROJECTS <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link active" href="{{ site.url }}/about/">ABOUT</a>
+              <a class="nav-item nav-link {% if page.path == 'about.html' %}active{% endif %}" href="{{ site.url }}/about/">ABOUT</a>
             </li>
           </ul>
         </div>
