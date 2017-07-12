@@ -1,274 +1,271 @@
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    background-color: #610500;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19px;
-    font-weight: lighter !important;
-    margin-bottom: 80px;
+  background-color: #610500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  font-weight: lighter !important;
+  margin-bottom: 80px;
 }
 
-h3, h5{
+h3, h5 {
   line-height: 30px;
 }
 
-
 .footer {
   position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    display: block;
-    padding-top: 0.1em;
-    padding-right: 2em;
-    padding-bottom: 0.1em;
-    padding-left: 2em;
-    color: white;
-    background-color: rgba(128, 0, 0, 1);
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 0.1em;
+  padding-right: 2em;
+  padding-bottom: 0.1em;
+  padding-left: 2em;
+  color: white;
+  background-color: rgba(128, 0, 0, 1);
 }
 
 div.container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 img.profile {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }
 
 p.social {
-     font-size: 18px;
+  font-size: 18px;
 }
 
-a.project-title:link, a.project-title:visited{
-    color: maroon;
+a.project-title:link, a.project-title:visited {
+  color: maroon;
 }
 
 a.project-title:hover {
-    color: maroon;
-    border-bottom: 2px solid maroon;
+  color: maroon;
+  border-bottom: 2px solid maroon;
 }
 
-a.hover-show:link, a.hover-show:visited, a.hover-show:active{
-    color: white;
-    text-decoration: none;
+a.hover-show:link, a.hover-show:visited, a.hover-show:active {
+  color: white;
+  text-decoration: none;
 }
 
-a.hover-show:hover{
-    text-decoration: underline;
+a.hover-show:hover {
+  text-decoration: underline;
 }
 
-a.intext-link:link, a.intext-link:visited, a.intext-link:active{
-    color: lightpink;
-    text-decoration: none;
+a.intext-link:link, a.intext-link:visited, a.intext-link:active {
+  color: lightpink;
+  text-decoration: none;
 }
 
 a.intext-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a.footer-link:link, a.footer-link:visited, a.title-link:link, a.title-link:visited {
-    color: white;
+  color: white;
 }
 
-a.title-link:hover{
-    text-decoration: none;
+a.title-link:hover {
+  text-decoration: none;
 }
 
 div.hi {
-    padding-left: 1.5em;
-    padding-right: 0em;
-    font-family: 'Satisfy', cursive;
-    font-size: 300%;
+  padding-left: 1.5em;
+  padding-right: 0em;
+  font-family: 'Satisfy', cursive;
+  font-size: 300%;
 }
 
 div.title {
-    padding-left: 0em;
-    padding-right: 0em;
-    font-family: 'Satisfy', cursive;
-    font-size: 300%;
-    color: white;
+  padding-left: 0em;
+  padding-right: 0em;
+  font-family: 'Satisfy', cursive;
+  font-size: 300%;
+  color: white;
 }
 
 div.carousel-title {
-    font-family: 'Satisfy', cursive;
-    font-size: 9vw;
-    color: white;
+  font-family: 'Satisfy', cursive;
+  font-size: 9vw;
+  color: white;
 }
 
 div.right-quote {
-     text-align: right;
+  text-align: right;
 }
 
 i.link {
-    color: lightpink;
+  color: lightpink;
 }
 
 footer-icons {
-    display: inline-block;
-    width: 0.2em;
+  display: inline-block;
+  width: 0.2em;
 }
 
 div.icon-list {
-    font-size: 28px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter !important;
-    color: white;
+  font-size: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter !important;
+  color: white;
 }
 
-div.footer{
-    font-size: 18px;
+div.footer {
+  font-size: 18px;
 }
 
 a.return-to-top {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 a.return-to-top:hover, a.return-to-top:active {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 div.fixed {
-    position: fixed;
-    bottom: 14%;
-    right: 0;
+  position: fixed;
+  bottom: 14%;
+  right: 0;
 }
 
 div.photo {
-    display: inline-block;
-    overflow-x: auto;
-    overflow-y: auto;
+  display: inline-block;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 figcaption {
-    color: rgba(255, 255, 255, 0.8);
-    font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
 }
 
 img.slide {
-    width: 100%;
-    height:100%;
-    filter: brightness(50%);
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
 }
 
-
-
-a.site-link:link, a.site-link:visited, a.site-link:active{
-    color:white;
-    text-decoration: none;
+a.site-link:link, a.site-link:visited, a.site-link:active {
+  color: white;
+  text-decoration: none;
 }
 
 a.site-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a.navlink {
-    color: rgba(0,0,0,.5) !important;
+  color: rgba(0, 0, 0, .5) !important;
 }
 
 h2.project-title {
-    font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive;
 }
 
 i.lang-TypeScript {
-    color: #2b7489;
+  color: #2b7489;
 }
 
 i.lang-JavaScript {
-    color: #f1e05a;
+  color: #f1e05a;
 }
 
 i.lang-HTML {
-    color: #e44b23;
+  color: #e44b23;
 }
 
 i.lang-CSS {
-    color: #563d7c;
+  color: #563d7c;
 }
 
 i.lang-PHP {
-    color: #4F5D95;
+  color: #4F5D95;
 }
 
 i.lang-other {
-    color: #ededed;
+  color: #ededed;
 }
 
 i.lang-Java {
-    color: #b07219;
+  color: #b07219;
 }
 
 i.lang-Cpp {
-    color: #f34b7d;
+  color: #f34b7d;
 }
 
 div.center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 div.caption {
-    position: absolute;
-    right: 15%;
-    top: 10%;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: lightpink;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 200% !important;
+  position: absolute;
+  right: 15%;
+  top: 10%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: lightpink;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 200% !important;
 }
 
 span.left-control {
-    width: 25px !important;
-    height: 25px !important;
-    background-color: maroon;
-    border-radius: 30px;
-    background-position: 7px;
+  width: 25px !important;
+  height: 25px !important;
+  background-color: maroon;
+  border-radius: 30px;
+  background-position: 7px;
 }
 
 span.right-control {
-    width: 25px !important;
-    height: 25px !important;
-    background-color: maroon;
-    border-radius: 30px;
-    background-position: 1px;
+  width: 25px !important;
+  height: 25px !important;
+  background-color: maroon;
+  border-radius: 30px;
+  background-position: 1px;
 }
 
 i.project-link {
-    color: maroon;
+  color: maroon;
 }
 
 .carousel-indicators .active {
-    background-color: maroon !important;
+  background-color: maroon !important;
 }
 
 .carousel-indicators li {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 .main-text {
-    position: absolute;
-    top: 0.3em;
+  position: absolute;
+  top: 0.3em;
 }
 
 .card-outline-mindthegap {
-    background-color: transparent;
-    border-color: #f1e05a;
+  background-color: transparent;
+  border-color: #f1e05a;
 }
 
 .card-outline-skiplist {
-    background-color: transparent;
-    border-color: #f34b7d;
+  background-color: transparent;
+  border-color: #f34b7d;
 }
