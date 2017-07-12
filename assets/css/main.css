@@ -1,8 +1,14 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: #610500;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19px;
     font-weight: lighter !important;
+    margin-bottom: 80px;
 }
 
 h3, h5{
@@ -11,10 +17,11 @@ h3, h5{
 
 
 .footer {
+  position: absolute;
     bottom: 0;
     width: 100%;
     height: auto;
-
+    display: block;
     padding-top: 0.1em;
     padding-right: 2em;
     padding-bottom: 0.1em;
