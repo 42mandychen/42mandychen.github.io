@@ -12,8 +12,8 @@
   <meta property="profile:last_name" content="Chen" />
   <meta property="profile:gender" content="female" />
   <meta property="fb:profile_id" content="558710364274912" />
-  <meta property="og:url" content = "{{ site.url }}" />
-  <meta property="og:image" content =  "{{ site.url }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{{ site.url }}" />
   <!-- For icon files -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -61,52 +61,56 @@
   {{ content }}
 
   <footer class="footer">
-    <div class="container hidden-md-up text-center footer">
-      <div class="row">
-        <div class="col-md-3">
-          <p class="mb-0">Stay organized.</p>
-        </div>
-        <div class="col-md-3">
-          <p class="footer-icons mb-0">
-            <a href="http://www.linkedin.com/in/mandy-c" class="fa fa-linkedin footer-link" target="_blank"></a>
-            <a href="http://www.github.com/42mandychen" class="fa fa-github footer-link" target="_blank"></a>
-            <a href="http://www.medium.com/@mandychen" class="fa fa-medium footer-link" target="_blank"></a>
-            <a href="http://www.facebook.com/mandychen42" class="fa fa-facebook footer-link" target="_blank"></a>
-            <a href="https://twitter.com/42mandychen" class="fa fa-twitter footer-link" target="_blank"></a>
-            <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
-            <a href="mailto:mandychen@alumni.ubc.ca" class="fa fa-envelope-o footer-link" target="_blank"></a>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <p class="mb-0">Copyright ©
-            <script type="text/javascript">
-              var d = new Date()
-              document.write(d.getFullYear())
-            </script>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <a href="{{ site.url }}" class="site-link">Mandy Chen</a>
+    <div class="footer hidden-md-up text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <p class="mb-0">Stay organized.</p>
+          </div>
+          <div class="col-md-3">
+            <p class="footer-icons mb-0">
+              <a href="http://www.linkedin.com/in/mandy-c" class="fa fa-linkedin footer-link" target="_blank"></a>
+              <a href="http://www.github.com/42mandychen" class="fa fa-github footer-link" target="_blank"></a>
+              <a href="http://www.medium.com/@mandychen" class="fa fa-medium footer-link" target="_blank"></a>
+              <a href="http://www.facebook.com/mandychen42" class="fa fa-facebook footer-link" target="_blank"></a>
+              <a href="https://twitter.com/42mandychen" class="fa fa-twitter footer-link" target="_blank"></a>
+              <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
+              <a href="mailto:mandychen@alumni.ubc.ca" class="fa fa-envelope-o footer-link" target="_blank"></a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-0">Copyright ©
+              <script type="text/javascript">
+                var d = new Date()
+                document.write(d.getFullYear())
+              </script>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <a href="{{ site.url }}" class="site-link">Mandy Chen</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container hidden-sm-down footer">
-      <p class="footer-icons mb-0">
-        Stay organized. |
-        <a href="http://www.linkedin.com/in/mandy-c" class="fa fa-linkedin footer-link" target="_blank"></a>
-        <a href="http://www.github.com/42mandychen" class="fa fa-github footer-link" target="_blank"></a>
-        <a href="http://www.medium.com/@mandychen" class="fa fa-medium footer-link" target="_blank"></a>
-        <a href="http://www.facebook.com/mandychen42" class="fa fa-facebook footer-link" target="_blank"></a>
-        <a href="https://twitter.com/42mandychen" class="fa fa-twitter footer-link" target="_blank"></a>
-        <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
-        <a href="mailto:mandychen@alumni.ubc.ca" class="fa fa-envelope-o footer-link" target="_blank"></a> | Copyright ©
-        <script type="text/javascript">
-          var d = new Date()
-          document.write(d.getFullYear())
-        </script>
-        <a href="{{ site.url }}" class="site-link">Mandy Chen</a>.
-      </p>
+    <div class="footer hidden-sm-down">
+      <div class="container">
+        <p class="footer-icons mb-0">
+          Stay organized. |
+          <a href="http://www.linkedin.com/in/mandy-c" class="fa fa-linkedin footer-link" target="_blank"></a>
+          <a href="http://www.github.com/42mandychen" class="fa fa-github footer-link" target="_blank"></a>
+          <a href="http://www.medium.com/@mandychen" class="fa fa-medium footer-link" target="_blank"></a>
+          <a href="http://www.facebook.com/mandychen42" class="fa fa-facebook footer-link" target="_blank"></a>
+          <a href="https://twitter.com/42mandychen" class="fa fa-twitter footer-link" target="_blank"></a>
+          <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
+          <a href="mailto:mandychen@alumni.ubc.ca" class="fa fa-envelope-o footer-link" target="_blank"></a> | Copyright ©
+          <script type="text/javascript">
+            var d = new Date()
+            document.write(d.getFullYear())
+          </script>
+          <a href="{{ site.url }}" class="site-link">Mandy Chen</a>.
+        </p>
+      </div>
     </div>
   </footer>
 
