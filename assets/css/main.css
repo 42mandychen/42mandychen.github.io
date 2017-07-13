@@ -145,9 +145,14 @@ div.photo {
   overflow-y: auto;
 }
 
-img {
+img.gs4t {
   width: 100%;
 }
+
+.not-found {
+
+}
+
 
 figcaption {
   color: rgba(255, 255, 255, 0.8);
