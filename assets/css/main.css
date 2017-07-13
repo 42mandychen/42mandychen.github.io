@@ -8,7 +8,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19px;
   font-weight: lighter !important;
-  margin-bottom: 80px;
+  margin-bottom: 8em;
 }
 
 h3, h5 {
@@ -147,10 +147,6 @@ div.photo {
 
 img.gs4t {
   width: 100%;
-}
-
-.not-found {
-
 }
 
 
