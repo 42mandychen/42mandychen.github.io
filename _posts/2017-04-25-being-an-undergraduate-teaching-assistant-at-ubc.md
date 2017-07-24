@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "TA"
+permalink: pretty
 date:   2017-04-25 15:00:01 -0600
 ---
 
