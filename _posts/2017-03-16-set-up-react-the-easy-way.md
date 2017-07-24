@@ -7,7 +7,7 @@ excerpt: Setting up React takes a long time for someone who doesn't have any exp
 
 # Set up React for an existing project the easy way with Babel and serve through Restify
 
-March 3, 2017
+{{ page.date | date: "%B %-d, %Y"}}
 
 Setting up `React` takes a long time for someone who doesn't have any experience. Following the [official installation guide](https://facebook.github.io/react/docs/installation.html) is not very helpful either, as it's not very clear about what we need to do exactly. Babel? Webpack? Browsify? Just tell me how to say hello world in the shortest time!
 
@@ -22,11 +22,11 @@ As `React` uses `JSX` `JavaScript` syntax, and it will not work if we just link 
 
 ### Babel Packages
 
-`"babel-cli": "^6.24.0"`
-
-`"babel-preset-env": "^1.2.2"`
-
-`"babel-preset-react": "^6.23.0"`
+```
+"babel-cli": "^6.24.0"
+`"babel-preset-env": "^1.2.2"
+`"babel-preset-react": "^6.23.0"
+```
 
 ### Update Dependencies
 

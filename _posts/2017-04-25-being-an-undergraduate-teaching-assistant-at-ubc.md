@@ -2,12 +2,12 @@
 layout: post
 title: Being an Undergraduate Teaching Assistant for CPSC 110 (Computation, Programs, and Programming) at UBC
 date:   2017-04-25 15:00:01 -0600
-excerpt: I taught CPSC 110 (Computation, Programs, and Programming), an introductory Computer Science course at the University of British Columbia (UBC) as an Undergraduate Teaching Assistant (TA) for three consecutive terms. CPSC 110 is a wonderful introductory CS course at UBC, where students learn about basic but fundamental CS concepts such as recursions, binary trees, backtracking search, accumulators, graphs, and so on.
+excerpt: I taught CPSC 110 (Computation, Programs, and Programming), an introductory Computer Science course at the University of British Columbia (UBC) as an Undergraduate Teaching Assistant (TA) for three consecutive terms.
 ---
 
 # Being an Undergraduate Teaching Assistant for CPSC 110 (Computation, Programs, and Programming) at UBC
 
-April 25, 2017
+{{ page.date | date: "%B %-d, %Y"}}
 
 I taught [CPSC 110 (Computation, Programs, and Programming)](https://sites.google.com/site/ubccpsc110/), an introductory Computer Science course at [the University of British Columbia (UBC)](http://www.ubc.ca/) as an Undergraduate Teaching Assistant (TA) for three consecutive terms.
 

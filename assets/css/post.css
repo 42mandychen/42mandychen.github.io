@@ -56,10 +56,16 @@ div.container {
   color: white;
 }
 
+pre, code {
+    padding: .2rem .4rem;
+    font-size: 90%;
+    color: #292b2c;
+    background-color: rgba(41, 43, 44, 0.19);
+    border-radius: .2rem;
+}
+
 .read-more {
     color: #d9534f;
-    background-image: none;
-    background-color: transparent;
     border-color: lightpink;
 }
 
