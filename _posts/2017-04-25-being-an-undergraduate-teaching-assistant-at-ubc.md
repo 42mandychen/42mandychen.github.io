@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "TA"
-permalink: pretty
+categories: blog
 date:   2017-04-25 15:00:01 -0600
 ---
 

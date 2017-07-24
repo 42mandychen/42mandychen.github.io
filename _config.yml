@@ -1,1 +1,2 @@
 url: "http://www.mandychen.me"
+permalink: /:categories/:year/:month/:day/:title

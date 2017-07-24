@@ -26,7 +26,7 @@
   <!-- Bootstrap v4 CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- Custom CSS -->
-  <link href="{{ site.url }}/assets/css/main.css" rel="stylesheet">
+  <link href="{{ site.url }}/assets/css/post.css" rel="stylesheet">
   <!-- Site font -->
   <link href="https://fonts.googleapis.com/css?family=Satisfy|Source+Sans+Pro" rel="stylesheet">
 
@@ -58,11 +58,17 @@
     </div>
   </div>
 
-  {{ content }}
+    <div class="container my-0">
+      <div class="row">
+        <div class="col post col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-sm-5 pt-4">
+          {{ content }}
+        </div>
+      </div>
+    </div>
 
   <footer class="footer">
     <div class="text-center">
-      <div class="container">          
+      <div class="container">
             <p class="footer-icons mb-0">
               <a href="http://www.linkedin.com/in/mandy-c" class="fa fa-linkedin footer-link" target="_blank"></a>
               <a href="http://www.github.com/42mandychen" class="fa fa-github footer-link" target="_blank"></a>
