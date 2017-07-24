@@ -42,10 +42,25 @@ h3, h5 {
   font-size: 18px;
 }
 
+.title {
+  padding-left: 0em;
+  padding-right: 0em;
+  font-family: 'Satisfy', cursive;
+  font-size: 300%;
+  color: black;
+}
+
 div.container {
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
+}
+
+.read-more {
+    color: #d9534f;
+    background-image: none;
+    background-color: transparent;
+    border-color: lightpink;
 }
 
 p.social {
@@ -63,6 +78,10 @@ a:hover {
 
 a.footer-link:link, a.footer-link:visited {
   color: white;
+}
+
+a.title-link:link, a.title-link:visited {
+  color: black;
 }
 
 footer-icons {
