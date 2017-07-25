@@ -7,6 +7,8 @@ excerpt: I've always wanted to set up Jekyll for my website. The powerful liquid
 
 # Set Up Jekyll For GitHub Pages on macOS
 
+{{ page.date | date: "%B %-d, %Y"}}
+
 I've always wanted to set up Jekyll for my website. The powerful liquid templating makes building and maintaining
 a static website so much easier. In addition, the ability to easily customize page and post URL's for SEO (Search Engine Optimization), and to use plain markdown files as page content are very nice.
 

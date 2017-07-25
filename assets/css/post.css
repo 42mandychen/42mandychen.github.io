@@ -15,7 +15,6 @@ body {
   background-color: #610500;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19px;
-  font-weight: lighter !important;
   margin-bottom: 130px;
 }
 
@@ -58,7 +57,7 @@ div.container {
 
 pre, code {
     padding: .2rem .4rem;
-    font-size: 90%;
+    font-size: 80%;
     background-color: rgba(41, 43, 44, 0.19);
     border-radius: .2rem;
 }

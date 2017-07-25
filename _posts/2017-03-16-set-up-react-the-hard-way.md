@@ -7,6 +7,8 @@ excerpt: In this guide, I put down the steps I followed to set up React with Bab
 
 # Set up React for an existing project the hard way with Babel, Webpack and serve through Webpack server
 
+{{ page.date | date: "%B %-d, %Y"}}
+
 If you want to set up `React` quickly, check out my note on [setting up `React` the easy way](https://gist.github.com/42mandychen/0aa124fda880689dc2c4308f3d9628d0). In this guide, I put down the steps I followed to set up `React` with `Babel` and `Webpack`.
 
 A few tutorials I found:
