@@ -14,6 +14,23 @@
   <meta property="fb:profile_id" content="558710364274912" />
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:image" content="{{ site.url }}" />
+  <!-- Twitter meta data -->
+  <meta name="twitter:card" content="{{ site.url }}/images/profile.jpg">
+  <meta name="twitter:site" content="@42mandychen">
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% if page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt }}">
+  {% else %}
+    <meta name="twitter:description" content="Mandy Chen's Blog">
+  {% endif %}
+  <meta name="twitter:creator" content="@42mandychen">
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="{{ site.url }}/images/profile.jpg">
   <!-- For icon files -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
