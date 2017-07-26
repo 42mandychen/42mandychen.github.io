@@ -8,3 +8,4 @@ kramdown:
   syntax_highlighter: rouge
 gems:
   - jekyll-gist
+env: production
