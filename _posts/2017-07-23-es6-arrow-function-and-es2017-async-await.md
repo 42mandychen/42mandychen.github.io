@@ -19,7 +19,7 @@ An arrow function is basically a [lambda function](https://en.wikipedia.org/wiki
 
 Remember the annoying thing to keep in mind when function scope changes — `let that = this`? You do not need to do it if you use an arrow function.
 
-Let's look at some code in `React` (modified from [my project]((https://github.com/42mandychen/giveawaypicker))).
+Let's look at some code in `React` (modified from [my project](https://github.com/42mandychen/giveawaypicker)).
 
 {% gist 42mandychen/be9e4b409b0ee7424923549e315c3308 arrow-function.js %}
 

@@ -43,7 +43,7 @@ This guide is aimed to give steps with specific code, not to explain every step 
 
 If you have a `package.json` file, just write these three lines to `"devDependencies"`, so your `package.json` file will look something like this:
 
-```json
+```javascript
 {
   "name": "yourproject",
   "description": "Your Project",
@@ -82,7 +82,7 @@ Since `Babel` is needed, we are going to need a `.babelrc` file under root folde
 
 Since `Webpack` is used, we need this configuration file. Here we use `HTMLWebpackPlugin` as well. Place it under root folder:
 
-```json
+```javascript
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var HTMLWebpackPluginConfig = new
     HTMLWebpackPlugin({
@@ -95,8 +95,10 @@ module.exports = {
     entry: __dirname + "/public/index.js",
     module: {
         loaders: [
-            { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-            { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+            { test: /\.js$/, loader: 'babel-loader',
+              exclude: /node_modules/ },
+            { test: /\.jsx$/, loader: 'babel-loader',
+              exclude: /node_modules/ }
         ]
     },
     output: {
@@ -157,7 +159,7 @@ Notice in `<body></body>`, we have `<div id="root"></div>`, so where does that c
 
 In `index.js`, write:
 
-```jsx
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -177,7 +179,7 @@ We will use the `Webpack` server to do the work.
 
 An easy way to do this is to add a command to the `scripts` section in `package.json`:
 
-```json
+```javascript
 {
   "name": "yourproject",
   "description": "Your Project",

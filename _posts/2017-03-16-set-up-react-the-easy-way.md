@@ -32,7 +32,7 @@ As `React` uses `JSX` `JavaScript` syntax, and it will not work if we just link 
 
 If you have a `package.json` file, just write these three lines to `"devDependencies"`, so your `package.json` file will look something like this:
 
-```json
+```javascript
 {
   "name": "yourproject",
   "description": "Your Project",
@@ -103,7 +103,7 @@ Notice in `<body></body>`, we have `<div id="root"></div>`, so where does that c
 
 In `index.js`, write:
 
-```jsx
+```javascript
 ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('root')
