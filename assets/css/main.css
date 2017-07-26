@@ -114,8 +114,8 @@ footer-icons {
   width: 0.2em;
 }
 
-div.icon-list {
-  font-size: 28px;
+.icon-list {
+  font-size: 28px !important;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter !important;
   color: white;
@@ -178,35 +178,35 @@ h2.project-title {
   font-family: 'Satisfy', cursive;
 }
 
-i.lang-TypeScript {
+i.TypeScript {
   color: #2b7489;
 }
 
-i.lang-JavaScript {
+i.JavaScript {
   color: #f1e05a;
 }
 
-i.lang-HTML {
+i.HTML {
   color: #e44b23;
 }
 
-i.lang-CSS {
+i.CSS {
   color: #563d7c;
 }
 
-i.lang-PHP {
+i.PHP {
   color: #4F5D95;
 }
 
-i.lang-other {
+i.Other {
   color: #ededed;
 }
 
-i.lang-Java {
+i.Java {
   color: #b07219;
 }
 
-i.lang-Cpp {
+i.Cpp {
   color: #f34b7d;
 }
 
