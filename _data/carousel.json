@@ -1,5 +1,9 @@
 [
   {
+    "src": "/images/site.png",
+    "alt": "Portfolio Site"
+  },
+  {
     "src": "/images/airbc.png",
     "alt": "AirBC"
   },
@@ -14,5 +18,9 @@
   {
     "src": "/images/mindthegap.png",
     "alt": "Mind The Gap"
-  }
+  },
+  {
+    "src": "/images/sweetbunny.png",
+    "alt": "Sweet Bunny"
+  }  
 ]

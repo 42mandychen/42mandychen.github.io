@@ -3,12 +3,12 @@ layout: default
 title: Projects - Mandy Chen
 ---
 
-<div id="carouselExampleControls" class="carousel slide hidden-sm-down" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide hidden-xs-down" data-ride="carousel">
 	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleControls" data-slide-to="1"></li>
-		<li data-target="#carouselExampleControls" data-slide-to="2"></li>
-		<li data-target="#carouselExampleControls" data-slide-to="3"></li>
+		{% for item in site.data.carousel %}
+			<li data-target="#carouselExampleControls" data-slide-to="{{ forloop.index0 }}"
+			class="{% if forloop.index0 == 0 %} active {% endif %}"></li>
+		{% endfor %}
 	</ol>
 	<div class="carousel-inner" role="listbox">
 		{% for item in site.data.carousel %}
@@ -41,83 +41,44 @@ title: Projects - Mandy Chen
 			<p class="mb-0">Welcome to my projects page!</p>
 			<p class="mb-0">This page shows some recent projects I have done individually and in teams, along with the projects that are ongoing.</p>
 		</div>
-		<div class="w-100"></div>
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
-		  <div id="portfolio" class="card card-outline-danger my-3 text-center w-100">
-		    <div class="card-block">
-		      <a href="#portfolio" class="title-link">
-		        <h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>Portfolio Website</h2>
-		      </a>
-		      <div class="d-inline mr-1"><i class="fa fa-circle HTML" aria-hidden="true"></i> HTML</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle CSS" aria-hidden="true"></i> CSS</div>
-		      <p class="mb-0"><a href="https://github.com/42mandychen/42mandychen.github.io/" class="intext-link" target="_blank">Code</a></p>
-		      <p class="card-text text-left mb-0">It's this website you are looking at right now! After I got this domain, I revamped the original version to this current version, from scratch. I set up <a href="https://jekyllrb.com/" class="intext-link" target="_blank">Jekyll</a>
-		        and now have my own <a href="{{site.url}}/blog/" class="intext-link" target="_blank">blog</a>.</p>
-		    </div>
-		  </div>
-		</div>
-		<div class="w-100"></div>
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
-		  <div id="airbc" class="card card-outline-secondary my-3 text-center w-100">
-		    <div class="card-block">
-		      <a href="#airbc" class="title-link">
-		        <h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>AirBC</h2>
-		      </a>
-		      <div class="d-inline mr-1"><i class="fa fa-circle PHP" aria-hidden="true"></i> PHP</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle Other" aria-hidden="true"></i> SQL</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle HTML" aria-hidden="true"></i> HTML</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle CSS" aria-hidden="true"></i> CSS</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle Other" aria-hidden="true"></i> Twig</div>
-		      <div class="d-inline mr-1"><i class="fa fa-circle JavaScript" aria-hidden="true"></i> jQuery</div>
-		      <p class="mb-0"><a href="https://github.com/RhysBower/AirBC/tree/master/project-final" class="intext-link" target="_blank">Code</a></p>
-		      <p class="card-text text-left mb-0">AirBC is a web app that models a real-life airline company page. It allows public to view Airport, Flight, Ticket, and Route information, customers to log in and book tickets, and staff to manage database and view summary data reports.</p>
-		      <p class="card-text text-left mb-0">I worked in a team of four with <a href="http://alisonwu.me/" class="intext-link" target="_blank">Alison Wu</a>, Harryson Hu, and <a href="http://www.rhysbower.com/" class="intext-link" target="_blank">Rhys Bower</a> for this project. During the
-		        time we used <a href="https://github.com/RhysBower/AirBC/issues?q=is%3Aissue+is%3Aclosed" class="intext-link" target="_blank">GitHub Issue Tracker</a> to ensure good progress.</p>
-		    </div>
-		  </div>
-		</div>
-		<div class="w-100"></div>
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
-			<div id="insightubc" class="card card-outline-info my-3 text-center w-100">
-				<div class="card-block">
-					<a href="#insightubc" class="title-link">
-						<h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>InsightUBC</h2>
-					</a>
-					<div class="d-inline mr-1"><i class="fa fa-circle TypeScript" aria-hidden="true"></i> TypeScript</div>
-					<div class="d-inline mr-1"><i class="fa fa-circle JavaScript" aria-hidden="true"></i> JavaScript (Node.js, ReactJS)</div>
-					<div class="d-inline mr-1"><i class="fa fa-circle HTML" aria-hidden="true"></i> HTML</div>
-					<div class="d-inline mr-1"><i class="fa fa-circle CSS" aria-hidden="true"></i> CSS</div>
-					<p class="mb-0"><a href="https://insightubc-cs.herokuapp.com/" class="intext-link" target="_blank">Website</a></p>
-					<p class="card-text text-left mb-0">My partner <a href="http://alisonwu.me/" class="intext-link" target="_blank">Alison Wu</a> and I deployed a web app and hosted through <a href="https://www.heroku.com/" class="intext-link" target="_blank">Heroku</a> that allows users to query information
-						about UBC course offerings and classrooms, view results, and schedule courses into available rooms.</p>
+		{% assign projects = site.projects | sort: 'date' | reverse %}
+		{% for project in projects %}
+			<div class="w-100"></div>
+			<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
+				<div id="{{ project.id }}" class="card {{ project.style }} my-3 text-center w-100">
+					<div class="card-block">
+						<a href="#{{ project.id }}" class="title-link">
+							<h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>{{ project.title }}</h2>
+						</a>
+						{% for language in project.languages %}
+							{% if language == 'C++' %}
+								{% assign style = 'Cpp' %}
+								{% assign name = language %}
+							{% elsif language == 'SQL' or language == 'Twig' %}
+								{% assign style = 'Other' %}
+								{% assign name = language %}
+							{% elsif language == 'jQuery' %}
+								{% assign style = 'JavaScript' %}
+								{% assign name = language %}
+							{% elsif language == 'JavaScript (Node.js, React)' %}
+								{% assign style = 'JavaScript' %}
+								{% assign name = language %}
+							{% else %}
+								{% assign style = language %}
+								{% assign name = language %}
+							{% endif %}
+							<div class="d-inline mr-1"><i class="fa fa-circle {{ style }}" aria-hidden="true"></i> {{ name }}</div>
+						{% endfor %}
+						{% if project.code %}
+							<p class="mb-0"><a href="{{ project.code }}" class="intext-link" target="_blank">Code</a></p>
+						{% endif %}
+						{% if project.website %}
+							<p class="mb-0"><a href="{{ project.website }}" class="intext-link" target="_blank">Website</a></p>
+						{% endif %}
+						{{ project.content }}
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="w-100"></div>
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
-			<div id="skiplist" class="card card-outline-skiplist my-3 text-center w-100">
-				<div class="card-block">
-					<a href="#skiplist" class="title-link">
-						<h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>Skiplist</h2>
-					</a>
-					<div class="d-inline mr-1"><i class="fa fa-circle Cpp" aria-hidden="true"></i> C++</div>
-					<p class="mb-0"><a href="https://github.com/42mandychen/skiplist/" class="intext-link" target="_blank">Code</a></p>
-					<p class="card-text text-left mb-0">Skiplist is a program that uses a <a href="https://en.wikipedia.org/wiki/Skip_list" class="intext-link" target="_blank">skip list</a> data structure to parse the input text file and produce an output text file that contains the words in an alphabetical
-						order in the input file with frequency and pages of occurrences.</p>
-				</div>
-			</div>
-		</div>
-		<div class="w-100"></div>
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
-			<div id="mindthegap" class="card card-outline-mindthegap my-3 text-center w-100">
-				<div class="card-block">
-					<a href="#mindthegap" class="title-link">
-						<h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>Mind the Gap</h2>
-					</a>
-					<div class="d-inline mr-1"><i class="fa fa-circle Java" aria-hidden="true"></i> Java</div>
-					<p class="card-text text-left mb-0">Mind the Gap is an Android app that displays real time London Underground arrival and departure information. It parses JSON data using London’s Underground RESTful API.</p>
-				</div>
-			</div>
-		</div>
+		{% endfor %}
 	</div>
 </div>

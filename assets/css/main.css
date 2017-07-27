@@ -210,6 +210,10 @@ i.Cpp {
   color: #f34b7d;
 }
 
+i.Processing {
+  color: #0096D8;
+}
+
 div.center {
   text-align: center !important;
 }
@@ -269,4 +273,9 @@ i.project-link {
 .card-outline-skiplist {
   background-color: transparent;
   border-color: #f34b7d;
+}
+
+.card-outline-sweetbunny {
+  background-color: transparent;
+  border-color: #0096D8;
 }

@@ -9,3 +9,5 @@ kramdown:
 gems:
   - jekyll-gist
 env: production
+collections:
+  projects:
