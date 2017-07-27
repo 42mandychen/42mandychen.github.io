@@ -29,14 +29,16 @@
       <div class="row">
         <div class="col post col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-sm-5 py-4">
           {{ content }}
-          <p><i>Comments? Let me know on <a href="
-            {% for media in site.data.social_media %}
-              {% if media.name == 'Twitter' %}
-                {{ media.link }}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-            " target="_blank">Twitter</a>.</i></p>
+          {% if page.title != 'Blog - Mandy Chen' %}
+            <p><i>Comments? Let me know on <a href="
+              {% for media in site.data.social_media %}
+                {% if media.name == 'Twitter' %}
+                  {{ media.link }}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              " target="_blank">Twitter</a>.</i></p>
+          {% endif %}
         </div>
       </div>
     </div>
