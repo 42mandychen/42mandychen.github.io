@@ -1,0 +1,12 @@
+- name: LinkedIn
+  link: https://www.linkedin.com/in/42mandychen
+  icon: fa-linkedin
+- name: GitHub
+  link: http://www.github.com/42mandychen
+  icon: fa-github
+- name: Facebook
+  link: http://www.facebook.com/42mandychen
+  icon: fa-facebook
+- name: Twitter
+  link: https://twitter.com/42mandychen
+  icon: fa-twitter
