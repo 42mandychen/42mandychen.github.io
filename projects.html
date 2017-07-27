@@ -37,14 +37,14 @@ title: Projects - Mandy Chen
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
+		<div class="col post col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-sm-5">
 			<p class="mb-0">Welcome to my projects page!</p>
 			<p class="mb-0">This page shows some recent projects I have done individually and in teams, along with the projects that are ongoing.</p>
 		</div>
 		{% assign projects = site.projects | sort: 'date' | reverse %}
 		{% for project in projects %}
 			<div class="w-100"></div>
-			<div class="col-xl push-xl-0 col-lg-8 push-lg-2 col-md-10 push-md-1">
+			<div class="col post col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-sm-5">
 				<div id="{{ project.id }}" class="card {{ project.style }} my-3 text-center w-100">
 					<div class="card-block">
 						<a href="#{{ project.id }}" class="title-link">
