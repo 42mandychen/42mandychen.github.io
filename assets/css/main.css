@@ -267,7 +267,7 @@ i.project-link {
 
 .card-outline-mindthegap {
   background-color: transparent;
-  border-color: #f1e05a;
+  border-color: #b07219;
 }
 
 .card-outline-skiplist {
@@ -278,4 +278,9 @@ i.project-link {
 .card-outline-sweetbunny {
   background-color: transparent;
   border-color: #0096D8;
+}
+
+.card-outline-giveawaypicker {
+  background-color: transparent;
+  border-color: #f1e05a;
 }

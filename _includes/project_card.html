@@ -1,0 +1,37 @@
+
+
+<div class="{{ include.cardstyle }}">
+  <div id="{{ project.id }}" class="card {{ project.style }} my-3 text-center w-100">
+    <div class="card-block">
+      <a href="{{ site.url }}/projects#{{ project.id }}" class="title-link">
+        <h2 class="card-title project-title"><sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>{{ project.title }}</h2>
+      </a>
+      {% for language in project.languages %}
+        {% if language == 'C++' %}
+          {% assign style = 'Cpp' %}
+          {% assign name = language %}
+        {% elsif language == 'SQL' or language == 'Twig' %}
+          {% assign style = 'Other' %}
+          {% assign name = language %}
+        {% elsif language == 'jQuery' %}
+          {% assign style = 'JavaScript' %}
+          {% assign name = language %}
+        {% elsif language.contains 'JavaScript' %}
+          {% assign style = 'JavaScript' %}
+          {% assign name = language %}
+        {% else %}
+          {% assign style = language %}
+          {% assign name = language %}
+        {% endif %}
+      <div class="d-inline mr-1"><i class="fa fa-circle {{ style }}" aria-hidden="true"></i> {{ name }}</div>
+      {% endfor %}
+      {% if project.code %}
+        <p class="mb-0"><a href="{{ project.code }}" class="intext-link" target="_blank">Code</a></p>
+      {% endif %}
+      {% if project.website %}
+        <p class="mb-0"><a href="{{ project.website }}" class="intext-link" target="_blank">Website</a></p>
+      {% endif %}
+      {{ project.content }}
+    </div>
+  </div>
+</div>

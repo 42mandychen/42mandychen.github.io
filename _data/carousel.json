@@ -1,5 +1,13 @@
 [
   {
+    "src": "/images/giveawaypicker.png",
+    "alt": "Giveaway Picker"
+  },
+  {
+    "src": "/images/sweetbunny.png",
+    "alt": "Sweet Bunny"
+  },
+  {
     "src": "/images/site.png",
     "alt": "Portfolio Site"
   },
@@ -18,9 +26,5 @@
   {
     "src": "/images/mindthegap.png",
     "alt": "Mind The Gap"
-  },
-  {
-    "src": "/images/sweetbunny.png",
-    "alt": "Sweet Bunny"
-  }  
+  }
 ]
