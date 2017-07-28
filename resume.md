@@ -7,32 +7,7 @@ footnote: false
 
 This is a rendered Markdown version of my resume.
 
-There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown version's source file](https://github.com/42mandychen/42mandychen.github.io/resume.md).
-
-### Table of Contents
-
-- [Technical Skills](#technical-skills)
-  - [Languages](#languages)
-  - [Technologies](#technologies)
-- [Projects](#projects)
-  - [Giveaway Picker](#giveaway-picker)
-  - [Personal Portfolio](#personal-portfolio)
-  - [Sweet Bunny](#sweet-bunny)
-  - [AirBC](#airbc)
-  - [InsightUBC](#insightubc)
-  - [Mind The Gap](#mind-the-gap)
-  - [WeDJ at nwHacks 2016](#wedj-at-nwhacks-2016)
-- [Work Experience](#work-experience)
-  - [GIRLsmarts4tech Coordinator](#girlsmarts4tech-coordinator)
-  - [Undergraduate Teaching Assistant](#undergraduate-teaching-assistant)
-- [Education](#education)
-  - [The University of British Columbia (UBC)](#the-university-of-british-columbia-ubc)
-  - [Hong Kong Baptist University (HKBU)](#hong-kong-baptist-university-hkbu)
-- [Volunteer Experience](#volunteer-experience)
-  - [Explore the WWWorld Mentor](#explore-the-wwworld-mentor)
-  - [Experience Science Day Volunteer](#experience-science-day-volunteer)
-  - [Ladies Learning Code Mentor](#ladies-learning-code-mentor)
-  - [Canadian Open Math Challenge Day Volunteer](#canadian-open-math-challenge-day-volunteer)
+There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown version's source file](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md).
 
 # Mandy Chen
 
@@ -46,11 +21,11 @@ Vancouver, BC, Canada
 
 ### Languages
 
-`JavaScript` `TypeScript` `Java` `HTML` `CSS` `SQL` `C` `C++` `PHP`
+`JavaScript` `TypeScript` `Java` `HTML` `CSS` `SQL` `C` `C++` `PHP` `Bash`
 
 ### Technologies
 
-Git, Node.js, React, MySQL, JUnit, Mocha, Terminal, IntelliJ, Genymotion, Atom.
+Git, Node.js, React, MySQL, JUnit, Mocha, IntelliJ, Genymotion, Atom.
 
 ## Projects
 
@@ -58,7 +33,7 @@ Git, Node.js, React, MySQL, JUnit, Mocha, Terminal, IntelliJ, Genymotion, Atom.
 
 Web App • `React` `JavaScript` `HTML` `CSS` `Bootstrap` • Jun 2017 – Present
 
-[Code]([https://github.com/42mandychen/giveawaypicker](https://github.com/42mandychen/giveawaypicker)) • [Website](http://www.mandychen.me/giveawaypicker/)
+[Code](https://github.com/42mandychen/giveawaypicker) • [Website](http://www.mandychen.me/giveawaypicker/)
 
 - Developing individually a web app that randomly selects winners from people who liked given Instagram posts and hosted on GitHub Pages.
 - Integrated login feature through client-side authentication using Instagram API.
@@ -79,7 +54,7 @@ Website • `HTML` `CSS` `Liquid` • Jan 2017 - Present
 
 Game • `JavaScript` `Processing` `HTML` `CSS` • Jan 2015 - Jun 2017
 
-[Code](https://github.com/42mandychen/sweet-bunny) • [Website](http://www.mandychen.me/sweet-bunny)
+[Code](https://github.com/42mandychen/sweetbunny) • [Website](http://www.mandychen.me/sweetbunny)
 
 - Recreated using JavaScript a personal Processing game written in 2015.
 - Refactored code and embedded on personal website with p5.js.
@@ -121,7 +96,7 @@ Android App • `Java` • Jan 2016 – Apr 2016
 Web App • `JavaScript`  • Feb 2016
 
 - Designed and implemented a web app that allows people to vote for their favourite songs in gatherings, updates votes in real time, and automatically plays the most popular one.
-- Worked in a team of 4 on the back end using KnockoutJS for data-binding and JavaScript for web app setting-up.
+- Worked in a team of 4 on the back end using KnockoutJS for data-binding and JavaScript to set up web app.
 
 ## Work Experience
 
@@ -140,7 +115,7 @@ UBC Department of Computer Science •	May 2016 – Apr 2017
 
 - Taught CPSC110 (Computation, Programs, and Programming) for three consecutive terms.
 - Coached 100+ students to solve programming problems by helping them gain a deeper understanding of functional programming and systematic programming design.
-- Participated in weekly meetings with peer TAs and instructors to provide feedbacks, discuss issues and possible solutions.
+- Participated in weekly meetings with peer TAs and instructors to provide feedback, discuss issues and possible solutions.
 
 ## Education
 
@@ -148,7 +123,7 @@ UBC Department of Computer Science •	May 2016 – Apr 2017
 
 Vancouver, BC, Canada • Sep 2015 – May 2018 (Expected)
 
-- Bachelor of Science, Computer Science Major, Cumulative GPA 3.9/4.0, Computer Science GPA 4.0/4.0.
+- Bachelor of Science, Major Computer Science, Cumulative GPA 3.9/4.0, Computer Science GPA 4.0/4.0.
 - Received Trek Excellence Scholarship for Continuing Students (Top 5% of the Science Faculty) for 2015/2016 Winter Session.
 - Dean's Honour List from 2015 to 2017.
 - A member of the Committee for Outreach, Diversity and Equity (CODE) as an undergraduate representative.
@@ -171,13 +146,13 @@ PQA Testing • Jul 2017
 
 UBC • May 2016
 
-- Guided 100+ students from Grade 4 to 7 to learn Scratch-type programming.
+- Guided 100+ students from Grade 4 to 7 as they learned programming fundamentals in Scratch.
 
 ### *Ladies Learning Code Mentor*
 
 Ladies Learning Code • May 2016
 
-- Instructed girls aged from 12-17 to learn Python basics in 6 hours.
+- Instructed girls aged from 12-17 to learn Python basics.
 
 ### *Canadian Open Math Challenge Day Volunteer*
 
@@ -186,4 +161,4 @@ UBC • Nov 2015
 - Coached over 20 high school students to solve math problems in Python.
 
 ---
-[Source](https://github.com/42mandychen/42mandychen.github.io/resume.md) • [PDF (one page)]({{ site.url }}/files/MandyChen-Resume.pdf)
+[Source](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md) • [PDF (one page)]({{ site.url }}/files/MandyChen-Resume.pdf)
