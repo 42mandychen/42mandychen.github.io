@@ -2,6 +2,8 @@
   {% for media in site.data.social_media %}
     <a href="{{ media.link }}" class="fa {{ media.icon }} footer-link" target="_blank"></a>
   {% endfor %}
-  <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
+  {% if include.resume == true %}
+    <a href="{{ site.url }}/files/MandyChen-Resume.pdf" class="fa fa-file-text-o footer-link" target="_blank"></a>
+  {% endif %}
   <a href="mailto:mandychen@alumni.ubc.ca" class="fa fa-envelope-o footer-link" target="_blank"></a>
 </p>
