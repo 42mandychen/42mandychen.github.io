@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  {% include metadata.html %}
+  <meta name="twitter:description" content="Mandy Chen's Resume">
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/51015f8972.js"></script>
+  <!-- Bootstrap v4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link href="{{ site.url }}/assets/css/post.css" rel="stylesheet">
+  <link href="{{ site.url }}/assets/css/resume.css" rel="stylesheet">
+  <!-- Site font -->
+  <link href="https://fonts.googleapis.com/css?family=Satisfy|Source+Sans+Pro" rel="stylesheet">
+  {% include google_analytics.html %}
+</head>
+
+<body>
+  {% include navbar.html %}
+
+    <div class="container my-0">
+      <div class="row">
+        <div class="col post col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-sm-5 py-4">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+  {% include footer.html %}
+
+  <script src="{{ site.url }}/assets/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
