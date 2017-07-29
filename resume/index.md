@@ -52,7 +52,7 @@ Website • `HTML` `CSS` `Liquid` • Jan 2017 - Present
 
 ### *Sweet Bunny*
 
-Game • `JavaScript` `Processing` `HTML` `CSS` • Jan 2015 - Jun 2017
+Game • `JavaScript` `Processing` `HTML` `CSS` • Jan 2015 - Jul 2017
 
 [Code](https://github.com/42mandychen/sweetbunny) • [Website](http://www.mandychen.me/sweetbunny)
 
@@ -83,6 +83,12 @@ Web App • `TypeScript` `Node.js` `React` `HTML` `CSS` • Jan 2017 – Apr 201
 - Completed RESTful endpoints adaption with Restify APIs, and used endpoints in React to set up and finish a course information exploration page.
 - Designed and executed unit tests using Mocha framework in WebStorm IDE.
 - Collaborated with teammate through version control system and issue tracker on GitHub.
+
+### *Skiplist*
+
+Data Structure • `C++` • Oct 2016
+
+- Implemented a skip list data structure to parse input text file and output a text file containing the words in the input file with frequency and pages of occurrences in an alphabetical order.
 
 ### *Mind The Gap*
 
