@@ -20,6 +20,35 @@ title: Mandy Chen
 					 GIRLsmarts4tech
 				 </a> coordinator, and I was an Undergraduate Teaching Assistant for an introductory Computer Science course, <a href="https://sites.google.com/site/ubccpsc110/" class="intext-link" target="_blank">CPSC 110</a>, for a year.
 			</p>
+			<div class="title" id="recent-projects">
+				<p class="mb-0">
+					<a href="#recent-projects" class="title-link">
+								<sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>
+								Recent Projects
+							</a>
+				</p>
+			</div>
+			{% assign projects = site.projects | sort: 'date' | reverse %}
+			{% assign card_style = 'col-6' %}
+			{% for project in projects limit: 2 %}
+				{% include project_card.html projects=projects cardstyle=card_style %}
+			{% endfor %}
+			{% for project in projects offset:2 limit: 2 %}
+				{% include project_card.html projects=projects cardstyle=card_style %}
+			{% endfor %}
+			<p><a href="{{ site.url }}/projects" class="intext-link" target="_blank">See more</a>.</p>
+			<div class="title" id="recent-blog-posts">
+				<p class="mb-0">
+					<a href="#recent-blog-posts" class="title-link">
+								<sup><i class="fa fa-link fa-rotate-90 link" aria-hidden="true"></i></sup>
+								Recent Blog Posts
+							</a>
+				</p>
+			</div>
+			{% for post in site.posts limit:4 %}
+				<hr>
+				<h4><a href="{{ post.url }}" class="title-link">{{ post.title }}</a></h4>
+			{% endfor %}
 			<p>When I'm not programming, I'm usually having a bubble tea, trying out food and taking pictures of it, or strolling around. Feel free to talk to me about computer science, food or little things in life.</p>
 
 			<p>To know <a href="{{ site.url }}/about" class="intext-link">more about me</a>.</p>
