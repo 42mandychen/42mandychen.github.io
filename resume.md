@@ -105,7 +105,7 @@ Web App • `JavaScript`  • Feb 2016
 UBC Department of Computer Science • Apr 2016 – Present
 
 - Recruited and managed 70+ volunteers through advertising and hosting meetings.
-- Updated, designed, and organized workshops to teach 140+ Grade 6 and 7 girls about HTML/CSS basics, HCI, programming using Microsoft Touch Develop, 3D printing, and hardware.
+- Updated, designed, and organized workshops to teach 140+ Grade 6 and 7 girls about HTML, CSS basics, HCI, programming using Microsoft Touch Develop, 3D printing, and hardware.
 - Ensured workshop planning progress by communicating weekly with faculty staff members and peer coordinators.
 - Designing programming workshop for 2018 currently, see [progress](https://github.com/42mandychen/teach-kids-to-code).
 
