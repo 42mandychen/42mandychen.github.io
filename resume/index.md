@@ -7,7 +7,7 @@ footnote: false
 
 This is my full resume.
 
-There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown source file](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md).
+There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown source file](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume/index.md).
 
 # Mandy Chen
 
@@ -161,4 +161,4 @@ UBC • Nov 2015
 - Coached over 20 high school students to solve math problems in Python.
 
 ---
-[Source](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md) • [PDF (one page)]({{ site.url }}/files/MandyChen-Resume.pdf)
+[Source](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume/index.md) • [PDF (one page)]({{ site.url }}/files/MandyChen-Resume.pdf)

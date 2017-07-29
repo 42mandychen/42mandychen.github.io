@@ -11,3 +11,4 @@ gems:
 env: production
 collections:
   projects:
+exclude: [README.md, Gemfile, Gemfile.lock, CNAME]
