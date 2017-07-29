@@ -5,13 +5,13 @@ footnote: false
 ---
 # Resume
 
-This is a rendered Markdown version of my resume.
+This is my full resume.
 
-There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown version's source file](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md).
+There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf), and the [Markdown source file](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume.md).
 
 # Mandy Chen
 
-Vancouver, BC, Canada
+Vancouver, Canada • Willing to relocate in May 2018
 
 (604) 720-9386 • [mandychen@alumni.ubc.ca](mailto:mandychen@alumni.ubc.ca)
 
