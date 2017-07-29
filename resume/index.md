@@ -127,7 +127,7 @@ UBC Department of Computer Science •	May 2016 – Apr 2017
 
 ### *The University of British Columbia (UBC)*
 
-Vancouver, BC, Canada • Sep 2015 – May 2018 (Expected)
+Vancouver, BC, Canada • Sep 2015 – April 2018 (Expected)
 
 - Bachelor of Science, Major Computer Science, Cumulative GPA 3.9/4.0, Computer Science GPA 4.0/4.0.
 - Received Trek Excellence Scholarship for Continuing Students (Top 5% of the Science Faculty) for 2015/2016 Winter Session.
