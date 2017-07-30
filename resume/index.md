@@ -67,7 +67,7 @@ Web App • `PHP` `SQL` `Twig` `HTML` `CSS` `jQuery` • Jan 2017 – Apr 2017
 [Code](https://github.com/RhysBower/AirBC)
 
 - Built an airline system that allows public to view Airport, Flight, Ticket, and Route information, customers to log in and book tickets, and staff to manage database and view summary data reports in a team of four.
-- Implemented Aircraft, Route, and Flight pages using queries in SQL from database and displayed results using Twig, HTML, CSS, and jQuery.
+- Implemented Aircraft, Route, and Flight pages using queries in SQL to fetch data and displayed results.
 - Ensured efficient search by implementing robust type-checking and error-handling in PHP.
 - Oversaw project progress and coordinated with teammates through breaking down required checkpoints into separate GitHub issues, assigning and self-assigning tasks, and labelling issues accordingly.
 
@@ -80,7 +80,7 @@ Web App • `TypeScript` `Node.js` `React` `HTML` `CSS` • Jan 2017 – Apr 201
 - Deployed a web app that allows users to query information about UBC course offerings and classrooms, view results, and schedule courses into available rooms in a team of two.
 - Built data models that parse data from compressed JSON and HTML files asynchronously using promises, JSZip and parse5 APIs, process and cache data in local JSON files for fast and stable client-side access in TypeScript.
 - Implemented aggregate and group-by functionalities in backend query language following defined EBNF syntax.
-- Completed RESTful endpoints adaption with Restify APIs, and used endpoints in React to set up and finish a course information exploration page.
+- Completed RESTful endpoints using Restify, and finished a course information exploration page with React.
 - Designed and executed unit tests using Mocha framework in WebStorm IDE.
 - Collaborated with teammate through version control system and issue tracker on GitHub.
 
@@ -88,7 +88,7 @@ Web App • `TypeScript` `Node.js` `React` `HTML` `CSS` • Jan 2017 – Apr 201
 
 Data Structure • `C++` • Oct 2016
 
-- Implemented a skip list data structure to parse input text file and output a text file containing the words in the input file with frequency and pages of occurrences in an alphabetical order.
+- Implemented a skip list data structure to parse an input text file and output a text file containing the words in the input file with frequency and pages of occurrences in an alphabetical order.
 
 ### *Mind The Gap*
 
