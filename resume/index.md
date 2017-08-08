@@ -33,7 +33,7 @@ Git, Node.js, React, MySQL, JUnit, Mocha, IntelliJ, Genymotion, Atom.
 
 Web App • `React` `JavaScript` `HTML` `CSS` `Bootstrap` • Jun 2017 – Present
 
-[Code](https://github.com/42mandychen/giveawaypicker) • [Website](http://www.mandychen.me/giveawaypicker/)
+[Code](https://github.com/42mandychen/giveawaypicker)
 
 - Developing individually a web app that randomly selects winners from people who liked given Instagram posts and hosted on GitHub Pages.
 - Integrated login feature through client-side authentication using Instagram API.
