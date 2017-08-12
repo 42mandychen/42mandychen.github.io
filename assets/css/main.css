@@ -284,3 +284,13 @@ i.project-link {
   background-color: transparent;
   border-color: #f1e05a;
 }
+
+.card-outline-lightpink {
+  background-color: transparent;
+  border-color: lightpink;
+}
+
+.card-outline-orange {
+  background-color: transparent;
+  border-color: #FF8C00;
+}
