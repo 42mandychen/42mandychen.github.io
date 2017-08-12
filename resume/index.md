@@ -27,11 +27,45 @@ Vancouver, Canada • Willing to relocate in May 2018
 
 Git, Node.js, React, MySQL, JUnit, Mocha, IntelliJ, Genymotion, Atom.
 
+## Education
+
+### The University of British Columbia (UBC)
+
+Vancouver, BC, Canada • Sep 2015 – April 2018 (Expected)
+
+- Bachelor of Science, Major Computer Science, Cumulative GPA 3.9/4.0, Computer Science GPA 4.0/4.0.
+- Received Trek Excellence Scholarship for Continuing Students (Top 5% of the Science Faculty) for 2015/2016 Winter Session.
+- Dean's Honour List from 2015 to 2017.
+- A member of the Computer Science Committee for Outreach, Diversity and Equity (CODE) as an undergraduate representative.
+
+### Hong Kong Baptist University (HKBU)
+
+Kowloon Tong, Hong Kong • Sep 2014 – May 2015
+
+- Bachelor of Science, General Studies, GPA 3.68/4.0.
+
 ## Projects
 
-### *Giveaway Picker*
+### dsa.js
 
-Web App • `React` `JavaScript` `HTML` `CSS` `Bootstrap` • Jun 2017 – Present
+Data Structures • `JavaScript` `babel` • Aug 2017 – Present
+
+[Code](https://github.com/42mandychen/dsa.js)
+
+- Implemented data structures (max heap, priority queue, etc.) in ES6+ syntax and compiled
+with babel.
+
+### merge-md
+
+npm package • `Node.js` • Aug 2017
+
+[Code](https://github.com/42mandychen/dsa.js) • [Website](https://www.npmjs.com/package/merge-md)
+
+- Completed a package that merges all the files in a folder and published on npm with 84+ downloads.
+
+### Giveaway Picker
+
+Web App • `React` `JavaScript` `HTML` `CSS` `Bootstrap` • Jun 2017 – July 2017
 
 [Code](https://github.com/42mandychen/giveawaypicker)
 
@@ -40,7 +74,7 @@ Web App • `React` `JavaScript` `HTML` `CSS` `Bootstrap` • Jun 2017 – Prese
 - Utilized jsonp requests to fetch data from Instagram API.
 - Set up a routing system with React-Router to provide search engine friendly URLs.
 
-### *Personal Portfolio*
+### Personal Portfolio
 
 Website • `HTML` `CSS` `Liquid` • Jan 2017 - Present
 
@@ -50,7 +84,7 @@ Website • `HTML` `CSS` `Liquid` • Jan 2017 - Present
 - Programmed different page templates and displayed data files with Liquid templating.
 
 
-### *Sweet Bunny*
+### Sweet Bunny
 
 Game • `JavaScript` `Processing` `HTML` `CSS` • Jan 2015 - Jul 2017
 
@@ -60,7 +94,7 @@ Game • `JavaScript` `Processing` `HTML` `CSS` • Jan 2015 - Jul 2017
 - Refactored code and embedded on personal website with p5.js.
 
 
-### *AirBC*
+### AirBC
 
 Web App • `PHP` `SQL` `Twig` `HTML` `CSS` `jQuery` • Jan 2017 – Apr 2017
 
@@ -71,7 +105,7 @@ Web App • `PHP` `SQL` `Twig` `HTML` `CSS` `jQuery` • Jan 2017 – Apr 2017
 - Ensured efficient search by implementing robust type-checking and error-handling in PHP.
 - Oversaw project progress and coordinated with teammates through breaking down required checkpoints into separate GitHub issues, assigning and self-assigning tasks, and labelling issues accordingly.
 
-### *InsightUBC*
+### InsightUBC
 
 Web App • `TypeScript` `Node.js` `React` `HTML` `CSS` • Jan 2017 – Apr 2017
 
@@ -84,20 +118,20 @@ Web App • `TypeScript` `Node.js` `React` `HTML` `CSS` • Jan 2017 – Apr 201
 - Designed and executed unit tests using Mocha framework in WebStorm IDE.
 - Collaborated with teammate through version control system and issue tracker on GitHub.
 
-### *Skiplist*
+### Skiplist
 
 Data Structure • `C++` • Oct 2016
 
 - Implemented a skip list data structure to parse an input text file and output a text file containing the words in the input file with frequency and pages of occurrences in an alphabetical order.
 
-### *Mind The Gap*
+### Mind The Gap
 
 Android App • `Java` • Jan 2016 – Apr 2016
 
 - Completed individually the implementations of an Android app that parses JSON data using London’s Underground RESTful API and displays real time London Underground arrival and departure information.
 - Tested implementations using JUnit framework in IntelliJ, Android app interface and functionalities in emulator Genymotion.
 
-### *WeDJ* at nwHacks 2016
+### WeDJ at nwHacks 2016
 
 Web App • `JavaScript`  • Feb 2016
 
@@ -106,7 +140,7 @@ Web App • `JavaScript`  • Feb 2016
 
 ## Work Experience
 
-### *GIRLsmarts4tech Coordinator*
+### GIRLsmarts4tech Coordinator
 
 UBC Department of Computer Science • Apr 2016 – Present
 
@@ -115,7 +149,7 @@ UBC Department of Computer Science • Apr 2016 – Present
 - Ensured workshop planning progress by communicating weekly with faculty staff members and peer coordinators.
 - Designing programming workshop for 2018 currently, see [progress](https://github.com/42mandychen/teach-kids-to-code).
 
-### *Undergraduate Teaching Assistant*
+### Undergraduate Teaching Assistant
 
 UBC Department of Computer Science •	May 2016 – Apr 2017
 
@@ -123,44 +157,27 @@ UBC Department of Computer Science •	May 2016 – Apr 2017
 - Coached 100+ students to solve programming problems by helping them gain a deeper understanding of functional programming and systematic programming design.
 - Participated in weekly meetings with peer TAs and instructors to provide feedback, discuss issues and possible solutions.
 
-## Education
-
-### *The University of British Columbia (UBC)*
-
-Vancouver, BC, Canada • Sep 2015 – April 2018 (Expected)
-
-- Bachelor of Science, Major Computer Science, Cumulative GPA 3.9/4.0, Computer Science GPA 4.0/4.0.
-- Received Trek Excellence Scholarship for Continuing Students (Top 5% of the Science Faculty) for 2015/2016 Winter Session.
-- Dean's Honour List from 2015 to 2017.
-- A member of the Computer Science Committee for Outreach, Diversity and Equity (CODE) as an undergraduate representative.
-
-### *Hong Kong Baptist University (HKBU)*
-
-Kowloon Tong, Hong Kong • Sep 2014 – May 2015
-
-- Bachelor of Science, General Studies, GPA 3.68/4.0.
-
 ## Volunteer Experience
 
-### *Explore the WWWorld Mentor*
+### Explore the WWWorld Mentor
 
 PQA Testing • Jul 2017
 
 - Mentored 20+ Grade 8-9 girls about HTML and CSS on scratchpad.io and testing on Selenium IDE in 6 hours.
 
-### *Experience Science Day Volunteer*
+### Experience Science Day Volunteer
 
 UBC • May 2016
 
 - Guided 100+ students from Grade 4 to 7 as they learned programming fundamentals in Scratch.
 
-### *Ladies Learning Code Mentor*
+### Ladies Learning Code Mentor
 
 Ladies Learning Code • May 2016
 
 - Instructed girls aged from 12-17 to learn Python basics.
 
-### *Canadian Open Math Challenge Day Volunteer*
+### Canadian Open Math Challenge Day Volunteer
 
 UBC • Nov 2015
 
@@ -168,6 +185,7 @@ UBC • Nov 2015
 
 ## Additional Skills
 
-*Languages*: English (native or bilingual), Mandarin Chinese (native or bilingual), Japanese (elementary).
+**Languages**: English (native or bilingual), Mandarin Chinese (native or bilingual), Japanese (elementary).
+
 ---
 [Source](https://github.com/42mandychen/42mandychen.github.io/blob/master/resume/index.md) • [PDF (one page)]({{ site.url }}/files/MandyChen-Resume.pdf)
