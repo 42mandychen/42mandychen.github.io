@@ -13,7 +13,7 @@ excerpt: "GIRLsmarts4tech is a UBC CS program that teaches grade 6 and 7 girls a
 
 [GIRLsmarts4tech](www.cs.ubc.ca/girlsmarts4tech/) (GIRLsmarts) is a UBC CS program that teaches grade 6 and 7 girls about computer science[1]. It hosts different workshops -- HTML, 3D Printing, Programming, and Hardware are some of them -- and one workshop is usually an hour long. Recently we've been redesigning the programming activity that is an hour long.
 
-Last year, the girls didn't really like the programming workshop. A lot of them felt that the workshop was too hard to follow. This is OK, and this is why we collect feedback from the participants. It does not mean that the volunteers were bad -- we have quite a few great volunteers who were devoted and helpful. It does not mean the tool was bad either -- we used [Touch Develop](https://www.touchdevelop.com/), which is designed for easy programming on a tablet. Due to facility shortage, we didn't tablets for the girls and that could be a major reason why they had a hard time following along on laptops.
+Last year, the girls didn't really like the programming workshop. A lot of them felt that the workshop was too hard to follow. This is OK, and this is why we collect feedback from the participants. It does not mean that the volunteers were bad -- we have quite a few great volunteers who were devoted and helpful. It does not mean the tool was bad either -- we used [Touch Develop](https://www.touchdevelop.com/), which is designed for easy programming on a tablet. Due to facility shortage, we didn't have tablets for the girls and that could be a major reason why they had a hard time following along on laptops.
 
 After we received the feedback, we decided to redesign this year's programming workshop.
 
