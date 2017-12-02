@@ -11,9 +11,7 @@ There is also the [short pdf version]({{ site.url }}/files/MandyChen-Resume.pdf)
 
 # Mandy Chen
 
-Vancouver, Canada • Willing to relocate in May 2018
-
-(604) 720-9386 • [mandychen@alumni.ubc.ca](mailto:mandychen@alumni.ubc.ca)
+Vancouver, Canada • [mandychen@alumni.ubc.ca](mailto:mandychen@alumni.ubc.ca)
 
 [github.com/42mandychen](https://github.com/42mandychen) • [www.linkedin.com/in/42mandychen](https://www.linkedin.com/in/42mandychen)
 
