@@ -4,9 +4,9 @@
 - name: GitHub
   link: http://www.github.com/42mandychen
   icon: fa-github
-- name: Facebook
-  link: http://www.facebook.com/42mandychen
-  icon: fa-facebook
-- name: Twitter
-  link: https://twitter.com/42mandychen
-  icon: fa-twitter
+- name: YouTube
+  link: https://www.youtube.com/channel/UCQ-HWYtRjZ7fThsM1sYW8Og
+  icon: fa-youtube
+- name: Instagram
+  link: https://www.instagram.com/42mandychen/
+  icon: fa-instagram
